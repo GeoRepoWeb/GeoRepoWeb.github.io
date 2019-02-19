@@ -1,7 +1,7 @@
 
 var model = new xeogl.GLTFModel({
 
-    src: "forest_path/scene.gltf"
+    src: "https://dl.dropboxusercontent.com/s/upe75hdekjmeqrd/scene.gltf"
 });
 
 var camera = model.scene.camera;
