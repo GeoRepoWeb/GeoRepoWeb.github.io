@@ -1,25 +1,22 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
+<html>
+<html lang="en">
+<head>
+    <title>BIM Demo</title>
     <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | GeoDemo</title>
-    <link rel="shortcut icon" href="https://dl.dropboxusercontent.com/s/ozoedkvfwb5jl0x/favicon.ico">
-    <link rel="stylesheet" href="https://dl.dropboxusercontent.com/s/zzduo93tn78jxme/style.css">
-    <script src="https://dl.dropboxusercontent.com/s/y3sb1bh0uaemv7h/UnityProgress.js"></script>  
-    <script src="https://dl.dropboxusercontent.com/s/r0xrvj6up9nyds0/UnityLoader.js"></script>
-    <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "https://dl.dropboxusercontent.com/s/n67izuzpqm2n8j7/GeoRepo.json", {onProgress: UnityProgress});
-    </script>
-  </head>
-  <body>
-    <div class="webgl-content">
-      <div id="gameContainer" style="width: 960px; height: 600px"></div>
-      <div class="footer">
-        <div class="webgl-logo"></div>
-        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
-        <div class="title">GeoDemo</div>
-      </div>
-    </div>
-  </body>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+
+    <script src="xeogl.js"></script>
+    <script src="js/models/glTFModel.js"></script>
+</head>
+<body>
+<a  target="_blank" rel="noopener noreferrer" href="https://afgruppen.com">
+<img src="AFGruppenLogo.png" width="100" height="100">
+</a>
+<a  target="_blank" rel="noopener noreferrer" href="https://www.intellectsoft.net">
+<img alt="IntellectSoft" src="IntellectLogo.png" width="100" height="100">
+</a>
+<!---<button onclick="DebugCameras()">Debug Camera</button>-->
+<script src="demo.js"></script>
+</body>
 </html>
