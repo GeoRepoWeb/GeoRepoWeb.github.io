@@ -1744,7 +1744,7 @@
   "buffers": [
     {
       "byteLength": 76296336,
-      "uri": "scene.bin"
+      "uri": "https://dl.dropboxusercontent.com/s/g5xuodopi8yc018/scene.bin"
     }
   ],
   "extensionsUsed": [
@@ -1752,7 +1752,7 @@
   ],
   "images": [
     {
-      "uri": "textures/texture_material_baseColor.jpeg"
+      "uri": "https://dl.dropboxusercontent.com/s/nonx9zjq7hayrs4/texture_material_baseColor.jpeg"
     }
   ],
   "materials": [
